@@ -1,0 +1,59 @@
+
+.about {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 10%;
+  background: #f1f5f9;
+}
+
+.about-content h1 {
+  font-size: 42px;
+  color: #172554;
+}
+
+.about-content h2 {
+  font-size: 28px;
+  color: #2563eb;
+}
+
+.about-content p {
+  max-width: 650px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #475569;
+}
+
+.about-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #172554;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.about-btn:hover {
+  background: #2563eb;
+}
+@media (max-width: 768px) {
+  .about {
+    min-height: 70vh;
+    padding: 40px 5%;
+  }
+
+  .about-content h1 {
+    font-size: 30px;
+  }
+
+  .about-content h2 {
+    font-size: 24px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,41 @@
+.projects {
+  padding: 60px 8%;
+  text-align: center;
+  background: white;
+}
+
+.projects h2 {
+  font-size: 32px;
+  color: #172554;
+  margin-bottom: 35px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 250px;
+  padding: 25px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  color: #2563eb;
+}
+
+.project-card p {
+  color: #475569;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%;
+    max-width: 350px;
+  }
+}
